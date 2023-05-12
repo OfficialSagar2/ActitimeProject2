@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Com.Actitime.TestScript.Task">
+        <methods>
+          <include name="LaunchBrowser"/>
+          <include name="DataBaseConnection"/>
+          <include name="CreateCustomer"/>
+          <include name="DataBaseClose"/>
+          <include name="AfterTest"/>
+          <include name="Login"/>
+          <include name="LogOut"/>
+        </methods>
+      </class> <!-- Com.Actitime.TestScript.Task -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
